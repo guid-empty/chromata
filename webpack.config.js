@@ -17,5 +17,8 @@ module.exports = {
             { from: './src/index.html' },
             { context: './src', from: 'assets/**/*' }
         ])
-    ]
+    ],
+    optimization: {
+            minimize: false
+        },
 };
