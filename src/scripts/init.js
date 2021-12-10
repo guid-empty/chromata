@@ -6,14 +6,14 @@ var image = document.querySelector('#image'),
     chromata;
 
 chromata = new Chromata(image, {
-    pathFinderCount: 300,
+    pathFinderCount: 1,
     speed: 9,
     turningAngle: Math.PI/2,
     colorMode: 'color',
-    lineWidth: 4,
-    lineMode: 'square',
+    lineWidth: 2,
+    lineMode: 'smooth',
     compositeOperation: 'saturation',
-    origin: ['50% 50%'],
+    origin: ['bottom'],
     outputSize: 'container', // original, container
     key: 'low',
     backgroundColor: 'hsla(34, 70%, 70%, 0)'
